@@ -1,0 +1,24 @@
+html, body { height: 100%; }
+
+* { transition: all 500ms; transition-timing-function: ease-in-out; }
+
+.main-wrapper { overflow: hidden; }
+
+.sidebar { box-shadow: 0 0 20px #3f3f3f; z-index: 1; overflow: hidden; text-align: center; }
+.sidebar * { text-align: center; }
+.sidebar .user-icon { width: 4.5rem; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; margin: -1rem; overflow: hidden; border: 3px solid slategrey; margin-bottom: 0.75rem; }
+.sidebar a { text-decoration: none; color: black; }
+.sidebar .content { text-align: justify; }
+.sidebar .nav-button { white-space: nowrap; max-width: 15em; font-size: 1.5rem; margin-bottom: 2rem; }
+.sidebar .nav-button .active-display { font-size: 0; line-height: 2rem; max-width: 13em; -ms-text-overflow: clip; text-overflow: clip; overflow: hidden; }
+.sidebar .active { display: none; }
+.sidebar.expand { box-shadow: 0 0 5px #3f3f3f; }
+.sidebar.expand .sidebar-buttons * { text-align: left; }
+.sidebar.expand .user-icon { width: 13em; margin-top: 0; margin-bottom: 3rem; }
+.sidebar.expand .icon { font-size: 2rem; }
+.sidebar.expand .nav-button .active-display { margin-left: 1em; margin-top: 0.5rem; padding-right: 2rem; font-size: 1.5rem; }
+
+.content { overflow: auto; }
+.content main { margin: auto 1rem; }
+
+/*# sourceMappingURL=style-main.css.map */
